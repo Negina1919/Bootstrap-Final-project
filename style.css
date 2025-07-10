@@ -1,0 +1,375 @@
+
+.hero-section {
+  background: linear-gradient(to right, #2E8B57, #343e47);
+}
+
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in-up {
+  opacity: 0;
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+.fade-in-up.delay-1 { animation-delay: 0.3s; }
+.fade-in-up.delay-2 { animation-delay: 0.6s; }
+
+.features-section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.feature-hover {
+  background-color: rgb(71, 173, 110);
+  border-radius: 30px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 6px 15px rgba(46, 139, 87, 0.2);
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.feature-hover:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 25px rgba(46, 139, 87, 0.4);
+}
+
+.feature-hover i {
+  color: #2E8B57;
+  margin-bottom: 15px;
+}
+
+.feature-hover h3 {
+  color: #1f4e2d;
+}
+
+.feature-hover p {
+  color: #555;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.vision-section {
+  background: linear-gradient(to right, #2E8B57, #343e47);
+  overflow: hidden;
+}
+
+
+.section-title {
+  font-family: 'Segoe UI', sans-serif;
+  color: #fff !important;
+  font-weight: 700;
+  font-size: 2.3rem;
+}
+
+
+.vision-card {
+  background: rgba(255, 255, 255, 0.85);
+  border-left: 5px solid #2e8b57;
+  border-radius: 10px;
+  max-width: 700px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  font-family: 'Georgia', serif;
+  transition: transform 0.3s;
+}
+
+
+.vision-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+}
+
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeUp 1s ease forwards;
+}
+
+.animate-fade:nth-child(2) { animation-delay: 0.3s; }
+.animate-fade:nth-child(3) { animation-delay: 0.6s; }
+.animate-fade:nth-child(4) { animation-delay: 0.9s; }
+.animate-fade:nth-child(5) { animation-delay: 1.2s; }
+
+
+
+.contact-section {
+  background-color: aliceblue;
+  color: #2e8b57;
+}
+
+.section-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #33914f!important;
+}
+
+.contact-info {
+  max-width: 350px;
+}
+
+.info-item {
+ 
+  margin-bottom: 1.2rem;
+}
+
+.info-item i {
+  font-size: 1.5rem;
+  margin-right: 10px;
+  color: #2e8b57;
+}
+
+.contact-form {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  flex: 1;
+  min-width: 300px;
+}
+
+.contact-form input,
+.contact-form textarea {
+ 
+  margin-bottom: 1rem;
+  font-family: 'Segoe UI', sans-serif;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  padding: 0.75rem;
+}
+
+.contact-form button {
+  background-color: #2e8b57;
+  color: white;
+  padding: 0.7rem 2rem;
+  border: none;
+  border-radius: 25px;
+  font-weight: 700;
+  transition: background 0.3s, box-shadow 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #0ece7b;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.social-icons a {
+  color: #ffffff;
+  margin: 0 12px;
+  font-size: 1.6rem;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #ffe0f0;
+  transform: scale(1.2);
+}
+
+.carousel-section{
+    background: linear-gradient(to right, #e2e9e5, #dde9e2);
+}
+
+
+.hero-section {
+  background: linear-gradient(to right, #2E8B57, #343e47);
+}
+
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in-up {
+  opacity: 0;
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+.fade-in-up.delay-1 { animation-delay: 0.3s; }
+.fade-in-up.delay-2 { animation-delay: 0.6s; }
+
+.features-section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.feature-hover {
+  background-color: rgb(71, 173, 110);
+  border-radius: 30px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 6px 15px rgba(46, 139, 87, 0.2);
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.feature-hover:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 25px rgba(46, 139, 87, 0.4);
+}
+
+.feature-hover i {
+  color: #2E8B57;
+  margin-bottom: 15px;
+}
+
+.feature-hover h3 {
+  color: #1f4e2d;
+}
+
+.feature-hover p {
+  color: #555;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.vision-section {
+  background: linear-gradient(to right, #2E8B57, #343e47);
+  overflow: hidden;
+}
+
+
+.section-title {
+  font-family: 'Segoe UI', sans-serif;
+  color: #fff !important;
+  font-weight: 700;
+  font-size: 2.3rem;
+}
+
+
+.vision-card {
+  background: rgba(255, 255, 255, 0.85);
+  border-left: 5px solid #2e8b57;
+  border-radius: 10px;
+  max-width: 700px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  font-family: 'Georgia', serif;
+  transition: transform 0.3s;
+}
+
+
+.vision-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+}
+
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeUp 1s ease forwards;
+}
+
+.animate-fade:nth-child(2) { animation-delay: 0.3s; }
+.animate-fade:nth-child(3) { animation-delay: 0.6s; }
+.animate-fade:nth-child(4) { animation-delay: 0.9s; }
+.animate-fade:nth-child(5) { animation-delay: 1.2s; }
+
+
+
+.contact-section {
+  background-color: aliceblue;
+  color: #2e8b57;
+}
+
+.section-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #33914f!important;
+}
+
+.contact-info {
+  max-width: 350px;
+}
+
+.info-item {
+ 
+  margin-bottom: 1.2rem;
+}
+
+.info-item i {
+  font-size: 1.5rem;
+  margin-right: 10px;
+  color: #2e8b57;
+}
+
+.contact-form {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  flex: 1;
+  min-width: 300px;
+}
+
+.contact-form input,
+.contact-form textarea {
+ 
+  margin-bottom: 1rem;
+  font-family: 'Segoe UI', sans-serif;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  padding: 0.75rem;
+}
+
+.contact-form button {
+  background-color: #2e8b57;
+  color: white;
+  padding: 0.7rem 2rem;
+  border: none;
+  border-radius: 25px;
+  font-weight: 700;
+  transition: background 0.3s, box-shadow 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #0ece7b;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.social-icons a {
+  color: #ffffff;
+  margin: 0 12px;
+  font-size: 1.6rem;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #ffe0f0;
+  transform: scale(1.2);
+}
+
+.carousel-section{
+    background: linear-gradient(to right, #e2e9e5, #dde9e2);
+}
